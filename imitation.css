@@ -19,5 +19,16 @@ body {
 
 .cover {
   width: var(--cover-width);
+  height: 880px;
+  position: relative;
+  color: var(--ink-color);
+  background-color: var(--paper-color);
+  /* chatgpt luna 6 told me to add this for an more paper texture and shaded color */
+  background-image: radial-gradient(#d8cfbd 0.6px, transparent 0.8px), linear-gradient(#eee9de, #ded5c5);
+  background-size: 5px 5px, cover;
+}
+
+.header {
+  height: 176px;
   
 }
