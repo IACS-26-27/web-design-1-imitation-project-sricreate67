@@ -14,7 +14,7 @@ body {
   background: var(--outside-color);
   display: flex;
   justify-content: center;
-  font-family: "Times New Roman", serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .cover {
@@ -26,9 +26,27 @@ body {
   /* chatgpt luna 6 told me to add this for an more paper texture and shaded color */
   background-image: radial-gradient(#d8cfbd 0.6px, transparent 0.8px), linear-gradient(#eee9de, #ded5c5);
   background-size: 5px 5px, cover;
+  /*it ends here*/
 }
 
 .header {
   height: 176px;
-  
+  position: relative;
+  background: rgba(249, 246, 237, 0.88);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header h1 {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 0.8;
+  letter-spacing: -4px;
 }
