@@ -50,3 +50,98 @@ body {
   line-height: 0.8;
   letter-spacing: -4px;
 }
+
+.header h2 span {
+  letter-spacing: -3px;
+}
+
+.date {
+  position: absolute;
+  bottom: 14px;
+  left: 30px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.number {
+  position: absolute;
+  bottom: 14px;
+  right: 22px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.cover-picture {
+  position: absolute;
+  inset: 176px 0 0 0;
+}
+
+.high,
+.sport {
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  color: var(--red-color);
+  font-family: "Libre Bodoni", serif;
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.high {
+  top: 88px;
+  left: 118px;
+}
+
+.sport {
+  bottom: 167px;
+  right: 118px;
+}
+
+.car {
+  position: absolute;
+  top: 114px;
+  left: calc(740px/2);
+  transform: translatex(-50%);
+  width: 650px;
+}
+  
+.stories {
+  position: absolute;
+  right: 22px;
+  bottom: 18px;
+  left: 52px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.stories p {
+  margin: 0;
+}
+
+.stories span {
+  color: var(--red-color);
+  font-weight: 700;
+}
+
+.codes {
+  width: 140px;
+  height: 62px;
+  padding: 10px;
+  display: flex;
+  gap: 4px;
+  box-sizing:border-box;
+  background: #f8f6ed;
+}
