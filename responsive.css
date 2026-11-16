@@ -1,4 +1,12 @@
 /* Code for all screen sizes */
+:root {
+  --cover-width: 740px;
+  --outside-color: #252629;
+  --ink-color: #211f1b;
+  --paper-color: #e8e1d2;
+  --red-color: #c84d38;
+  --story-color: #ae4635;
+}
 
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 767px) {
@@ -9,6 +17,7 @@
     content: "Mobile";
     background-color: #c8787888;
   }
+
   /* End mobile label */
 }
 
@@ -21,6 +30,7 @@
     content: "Laptop";
     background-color: #45454588;
   }
+
   /* End laptop label */
 }
 
@@ -33,6 +43,7 @@
     content: "Wide";
     background-color: #00438888;
   }
+
   /* End widescreen label */
 }
 
