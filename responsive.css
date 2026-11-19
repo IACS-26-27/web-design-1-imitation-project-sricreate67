@@ -144,6 +144,27 @@ body {
     background-color: #c8787888;
   }
 
+  body {
+    padding: 6px;
+  }
+
+  .cover {
+    width: 360px;
+    height: 428px;
+  }
+
+  .header {
+    height: 95px;
+  }
+
+  .header h1 {
+    top: 18px;
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .date {}
+
   /* End mobile label */
 }
 
