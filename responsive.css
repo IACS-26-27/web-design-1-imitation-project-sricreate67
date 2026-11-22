@@ -163,7 +163,51 @@ body {
     letter-spacing: -2px;
   }
 
-  .date {}
+  .date {
+    bottom: 7px;
+    left: 12px;
+    font-size: 6px;
+  }
+
+  .number {
+    right: 10px;
+    bottom: 7px;
+    font-size: 6px;
+  }
+
+  .cover-picture {
+    top: 95px;
+  }
+
+  .high,
+  .sport {
+    font-size: 24px;
+  }
+
+  .high {
+    top: 38px;
+    left: 64px;
+  }
+
+  .sport {
+    right: 55px;
+    bottom: 90px;
+  }
+
+  .car {
+    top: 55px;
+    left: 0;
+    width: 360px;
+    height: 205px;
+  }
+
+  .stories {
+    right: 9px;
+    bottom: 6px;
+    left: 14px;
+    gap: 4px;
+    font-size: 6px;
+  }
 
   /* End mobile label */
 }
@@ -176,6 +220,53 @@ body {
   main::before {
     content: "Laptop";
     background-color: #45454588;
+  }
+
+  .cover {
+    width: 700px;
+    height: 832px;
+  }
+
+  .masthead {
+    height: 166px;
+  }
+
+  .masthead h1 {
+    top: 28px;
+    font-size: 70px;
+  }
+
+  .cover-picture {
+    top: 166px;
+  }
+
+  .high,
+  .sport {
+    font-size: 40px;
+  }
+
+  .high {
+    top: 83px;
+    left: 112px;
+  }
+
+  .sport {
+    right: 112px;
+    bottom: 158px;
+  }
+
+  .car {
+    top: 107px;
+    left: 0;
+    width: 700px;
+    height: 398px;
+  }
+
+  .stories {
+    right: 21px;
+    bottom: 17px;
+    left: 49px;
+    font-size: 9px;
   }
 
   /* End laptop label */
@@ -191,23 +282,62 @@ body {
     background-color: #00438888;
   }
 
-  /* End widescreen label */
-}
+  .cover {
+    width: 900px;
+    height: 1070px;
+  }
 
-/* BACK TO CODE FOR ALL SIZES */
+  .masthead {
+    height: 214px;
+  }
 
-/* Code to insert circular label label to show how responsive code is working on lower right */
-main::before {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-  color: #efefef;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  font-family: Helvetica, sans-serif;
-  font-size: 8pt;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .masthead h1 {
+    top: 37px;
+    font-size: 90px;
+  }
+
+  .date {
+    bottom: 17px;
+    left: 36px;
+    font-size: 10px;
+  }
+
+  .number {
+    right: 27px;
+    bottom: 17px;
+    font-size: 10px;
+  }
+
+  .cover-picture {
+    top: 214px;
+  }
+
+  .high,
+  .sport {
+    font-size: 52px;
+  }
+
+  .high {
+    top: 107px;
+    left: 144px;
+  }
+
+  .sport {
+    right: 144px;
+    bottom: 203px;
+  }
+
+  .car {
+    top: 139px;
+    left: 0;
+    width: 900px;
+    height: 511px;
+  }
+
+  .stories {
+    right: 27px;
+    bottom: 22px;
+    left: 63px;
+    gap: 10px;
+    font-size: 12px;
+  }
